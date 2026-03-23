@@ -3,8 +3,9 @@
 This project implements a real-time-capable speech enhancement pipeline using a hybrid Convolutional-Recurrent Neural Network. The model is trained to estimate an **Ideal Ratio Mask (IRM)** over 22 Bark-frequency bands to suppress steady-state mechanical noise.
 
 ## 🚀 Key Files & Workflow
+* **`Dataset_generator.ipynb`**: generates two folders one for noisy_files and other for normalized clean audio
+    * Dataset generation (SNR 5dB to 15dB
 * **`bark_feature_extraction.ipynb`**: The core technical engine. Contains the full pipeline:
-    * Dataset generation (SNR 5dB to 15dB).
     * 22-Band Bark scale feature extraction (BFCCs + Pitch + Flux).
     * The Hybrid CNN-GRU Model architecture.
     * The final inference loop for audio reconstruction.
