@@ -9,7 +9,7 @@ This project implements a real-time-capable speech enhancement pipeline using a 
     * 22-Band Bark scale feature extraction (BFCCs + Pitch + Flux).
     * The Hybrid CNN-GRU Model architecture.
     * The final inference loop for audio reconstruction.
-* **`Graphs.ipynb`**: The reporting module used to generate Phase 4 visualizations.
+* **`Graphs.ipynb`**: The reporting module used to generate visualizations.
 * **`rnnoise_blower_suppressor_final.keras`**: The final trained weights achieving >95% IRM accuracy.
 
 ## 📊 Performance & Results
