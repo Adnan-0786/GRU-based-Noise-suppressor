@@ -16,7 +16,7 @@ This project implements a real-time-capable speech enhancement pipeline using a 
 ### 1. Training Convergence (Accuracy)
 The model achieved the required **95% accuracy** threshold, evidenced by a final **Mean Squared Error (MSE) of < 0.05** on the predicted IRM.
 
-![Learning Curve](learning_curve_corrected.png)
+![Learning Curve](learning_curve.png)
 
 ### 2. Spectrogram Comparison
 Visual proof of noise suppression. Note the significant attenuation of low-frequency horizontal bands (blower noise) while speech harmonics are preserved.
