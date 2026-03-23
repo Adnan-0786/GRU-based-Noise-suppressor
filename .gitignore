@@ -1,0 +1,12 @@
+# Ignore training datasets
+noisy_dataset/
+aligned_clean_dataset/
+
+# Ignore Python and Jupyter environment files
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+
+# Ignore large stat arrays (optional, but recommended)
+mean.npy
+std.npy
